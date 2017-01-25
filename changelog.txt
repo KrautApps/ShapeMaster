@@ -1,0 +1,93 @@
+Changelog Eyeballing
+====================
+
+#13 - 28-Jul-2015 : PATCH RELEASE
+-----------------
+BUGFIX:  - buttons on network and report site were in wrong location
+         - removed status bar on network and report site
+         - soft keyboard can now be closed via back and return
+CHANGED: - text field for name now as a clear button
+
+#12 - 27-Jul-2015 : FIRST RELEASE!
+-----------------
+ADDED:   - release stuff for Android and iOS
+         - desktop system identifier for ranking list
+CHANGED: - line segment circle for finger now more far away from line
+         
+#11 - 23-Jul-2015
+-----------------
+ADDED:   - admob banner plus interstitial full screen banner
+CHANGED: - statistics button to highscore
+         - network wait animation
+
+#10 - 22-Jul-2015
+-----------------
+BUGFIX:  - current score for the other game mode got lost when starting new game
+         - network timeout did not work in all cases
+ADDED:   - monkey logo
+         - own score in distribution graph is now visualized
+CHANGED: - highscore list shows now more entries when there is no ad banner
+         - right angle level is now valid for both sides
+
+#09 - 21-Jul-2015
+-----------------
+BUGFIX:  - after finishing a game the current score was not ranked correctly
+         - fixed network crashes finally(?)
+ADDED:   - time selection of highscores for alltime, 30d, 7d, 1d
+CHANGED: - number of entries of the highscore list now dependent on device height (14-30)
+         - waiting animation
+
+#08 - 20-Jul-2015
+-----------------
+BUGFIX:  - fixed potential crashes in networking
+ADDED:   - credits
+CHANGED: - statistics can be switched between normal and insane
+
+#07 - 17-Jul-2015
+-----------------
+ADDED:   - statistics
+CHANGED: - levels are better centered now
+         - solutions are now outlined black for better visibility
+
+#06 - 16-Jul-2015
+-----------------
+ADDED:   - networking (including a solid hash function for securing)
+         - timer class
+         - report page
+CHANGED: - convergence level
+         - time continues to run now
+         - status line always displays text
+         - color of "known" lines from black to red
+
+#05 - 10-Jul-2015
+-----------------
+ADDED:   - 7th and final level (convergence)
+CHANGED: - status bar
+         - font (no shadow)
+
+#04 - 10-Jul-2015
+-----------------
+BUGFIX:  - fixed crash when reentering the game
+ADDED:   - 6th level (center of circle)
+         - back event for escape key
+CHANGED: - fade time for loading screen much faster now (250ms instead of 1000ms)
+         - lots of graphics
+         - new font
+
+#03 - 09-Jul-2015
+-----------------
+ADDED:   - 5th level (right angle level)
+CHANGED: - buttons
+         - added random seed
+
+#02 - 08-Jul-2015
+-----------------
+ADDED:   - 4th level (equidistant point in triangle)
+
+#01 - 07-Jul-2015
+-----------------
+ADDED:   - line angle intersect level
+
+#00 - 07-Jul-2015
+-----------------
+ADDED:   - initial checkin
